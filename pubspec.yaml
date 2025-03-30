@@ -1,0 +1,21 @@
+name: flutterize
+description: "A Flutter package contains device utilities"
+version: 0.0.1
+homepage: https://github.com/Rvkt/FlutterizePlugin
+environment:
+  sdk: ^3.6.1
+  flutter: '>=3.3.0'
+dependencies:
+  plugin_platform_interface: ^2.0.2
+  flutter:
+    sdk: flutter
+dev_dependencies:
+  flutter_lints: ^5.0.0
+  flutter_test:
+    sdk: flutter
+flutter:
+  plugin:
+    platforms:
+      android:
+        package: io.rvkt.flutterize
+        pluginClass: FlutterlyPlugin

@@ -1,0 +1,19 @@
+name: flutterly_example
+description: "Demonstrates how to use the flutterize plugin."
+publish_to: 'none'
+environment:
+  sdk: ^3.6.1
+dependencies:
+  cupertino_icons: ^1.0.8
+  flutter:
+    sdk: flutter
+  flutterize:
+    path: ../
+dev_dependencies:
+  flutter_lints: ^5.0.0
+  integration_test:
+    sdk: flutter
+  flutter_test:
+    sdk: flutter
+flutter:
+  uses-material-design: true
